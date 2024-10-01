@@ -3,10 +3,8 @@ const lastName = 'Ivanov';
 const age = '25';
 
 const obj = {
-  user: `${userName} ${lastName}`,
-  age: 25,
+  'user-name': `${userName} ${lastName}`,
+  'age': 25,
 };
 
-console.log(obj);
-console.log(obj);
-//develop
+console.log(obj['user-name']);
