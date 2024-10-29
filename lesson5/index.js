@@ -134,4 +134,7 @@
 // let str = 'test5 teSt3 test2';
 // console.log(regExp.test(str));
 
-console.log(0.1 + 0.2);
+// console.log(0.1 + 0.2);
+
+const stringToArray = (str) => str.split(' ');
+console.log(stringToArray('Hello World!'));
